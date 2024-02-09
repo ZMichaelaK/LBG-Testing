@@ -1,7 +1,9 @@
-package testing;
+package testing.unit;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import testing.Factorial;
 
 public class FactorialTest {
 	private Factorial factorial = new Factorial();

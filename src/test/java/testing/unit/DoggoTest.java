@@ -1,6 +1,9 @@
-package testing;
+package testing.unit;
 
 import org.junit.jupiter.api.Test;
+
+import testing.Doggo;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

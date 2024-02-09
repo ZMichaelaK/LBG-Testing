@@ -4,13 +4,16 @@
   <artifactId>calc-test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 <dependencies>
-		<!-- ... -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.10.2</version> <!-- can be omitted when using the BOM -->
 			<scope>test</scope>
 		</dependency>
-		<!-- ... -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.17.0</version>
+		</dependency>
 	</dependencies>
 </project>
